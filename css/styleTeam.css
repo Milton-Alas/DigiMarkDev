@@ -1,17 +1,15 @@
-/* CSS para styleTeam.css */
-
 body {
     background-color: #212529;
     color: #fff;
 }
 
 .navbar {
-    background-color: #6886ff !important;
+    background-color: #6886ff
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
-    color: #fff !important;
+    color: #fff
 }
 
 .navbar-toggler-icon {
@@ -28,6 +26,7 @@ body {
 .card-body {
     background-color: #6886ff;
     padding: 20px;
+    border-radius: 15px;
 }
 
 .card-title {

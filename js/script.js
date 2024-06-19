@@ -38,3 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const carousel = document.getElementById('carouselExampleCaptions');
+  const carouselInstance = new bootstrap.Carousel(carousel, {
+      interval: 1500, // Intervalo de reproducción en milisegundos
+      ride: 'carousel'
+  });
+});

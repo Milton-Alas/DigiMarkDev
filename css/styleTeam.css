@@ -1,15 +1,16 @@
 body {
-    background-color: #212529;
-    color: #fff;
+    background-color: #f9f9f9;
+    color: #000;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
-    background-color: #6886ff
+    background-color: #6886ff;
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
-    color: #fff
+    color: #fff;
 }
 
 .navbar-toggler-icon {
@@ -17,16 +18,17 @@ body {
 }
 
 .card {
-    background-color: #6886ff;
+    background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
+    color: #000;
 }
 
 .card-body {
-    background-color: #6886ff;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 0 0 15px 15px;
+    background-color: #0d1117;
 }
 
 .card-title {
@@ -41,21 +43,35 @@ body {
 }
 
 .container-fluid.container-dark {
-    background-color: #212529;
+    background: linear-gradient(to bottom, #212529, #343338);
     color: #fff;
-}
-
-.container-fluid.container-dark h1,
-.container-fluid.container-dark p {
-    text-align: center;
+    padding: 20px;
 }
 
 .container-fluid.container-dark h1 {
+    text-align: center;
     font-size: 34.78px;
+    margin-bottom: 20px;
 }
 
-.container-fluid.container-dark p {
-    font-size: 14px;
+.team-info {
+    background-color: #dfe1e2;
+    text-align: center;
+    color: #000;
+    margin: 20px 0;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 30px;
+}
+
+.team-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.team-info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
 }
 
 h1, h3 {
@@ -63,7 +79,10 @@ h1, h3 {
 }
 
 .card img {
-    background-color: #6886ff;
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    margin-top: 0;
 }
 
 footer {
@@ -71,4 +90,5 @@ footer {
     padding: 20px;
     color: #fff;
     text-align: center;
+    margin-top: 20px;
 }

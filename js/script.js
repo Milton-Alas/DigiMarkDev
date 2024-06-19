@@ -46,3 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
       ride: 'carousel'
   });
 });
+
+// Autoplay del carrusel clientes satisfechos
+document.addEventListener('DOMContentLoaded', function () {
+  const carousel = document.getElementById('testimonios-carrusel');
+  const carouselInstance = new bootstrap.Carousel(carousel, {
+      interval: 1500, // Intervalo de reproducción en milisegundos
+      ride: 'carousel'
+  });
+});
